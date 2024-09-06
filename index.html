@@ -1,50 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>my index</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<style>
+    .navbar {
+        background-color: #1806baf6;
+    }
+    .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #fff;
+    }
+    .navbar-nav .nav-link {
+        color: #fff;
+    }
+    .product img {
+        transition: transform 0.2s, translate 0.2s;
+    }
+    .product img:hover {
+        transform: scale(1.1) translate(10px, 10px);
+    }
+    .footer {
+        background-color: #3d86d9f6;
+        padding: 20px 0;
+        color: #fff;
+    }
+    .footer .form-inline {
+        display: flex;
+        align-items: center;
+    }
+    .footer img {
+        max-height: 50px;
+        margin-right: 20px;
+    }
+    .footer a {
+        color: #06ceb7;
+    }
+</style>
+<header>
+    <a class="navbar-brand" href="#">Index with Jays </a>
+    
+  </header> 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Store</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .navbar {
-            background-color: #1806baf6;
-        }
-        .navbar-brand {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #fff;
-        }
-        .navbar-nav .nav-link {
-            color: #fff;
-        }
-        .product img {
-            transition: transform 0.2s, translate 0.2s;
-        }
-        .product img:hover {
-            transform: scale(1.1) translate(10px, 10px);
-        }
-        .footer {
-            background-color: #3d86d9f6;
-            padding: 20px 0;
-            color: #fff;
-        }
-        .footer .form-inline {
-            display: flex;
-            align-items: center;
-        }
-        .footer img {
-            max-height: 50px;
-            margin-right: 20px;
-        }
-        .footer a {
-            color: #06ceb7;
-        }
-    </style>
-</head>
-<body>
-    <!-- Header -->
+        <!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">Jays Online Shopping Store</a>
+       
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -64,140 +68,101 @@
                 </li>
             </ul>
         </div>
-    </nav>
-  
-    <div class="container">
-        <div class="row">
-            <!-- Product 1 -->
-            <div class="col-md-4 col-sm-6 mb-4">
-                <div class="card product">
-                    <img src="https://cinephototools.co.za/wp-content/uploads/2021/07/nikonZFCw16-50mm.jpeg"  class="card-img-top img-fluid" alt="Camera">
-                    <div class="card-body">
-                        <h5 class="card-title">i20 Camera</h5>
-                        <p class="card-text">$110.00</p>
-                        <a href="#" class="btn btn-primary">Buy</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Product 2 -->
-            <div class="col-md-4 col-sm-6 mb-4">
-                <div class="card product">
-                    <img src="https://media.takealot.com/covers_images/a47370ef70ec4ff2a517faea405097d1/s-pdpxl.file" class="card-img-top img-fluid" alt="Classic Watch">
-                    <div class="card-body">
-                        <h5 class="card-title">Classic Watch</h5>
-                        <p class="card-text">$50.00</p>
-                        <a href="#" class="btn btn-primary">Buy</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Product 3 -->
-            <div class="col-md-4 col-sm-6 mb-4">
-                <div class="card product">
-                    <img src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top img-fluid" alt="Laptop">
-                    <div class="card-body">
-                        <h5 class="card-title">Laptop</h5>
-                        <p class="card-text">$305.00</p>
-                        <a href="#" class="btn btn-primary">Buy</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Product 4 -->
-            <div class="col-md-4 col-sm-6 mb-4">
-                <div class="card product">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKjXReOO4Kl6gYvY8F91RQ-l0wtbgu-V3y1g&s"  class="card-img-top img-fluid" alt="Radio">
-                    <div class="card-body">
-                        <h5 class="card-title">Radio</h5>
-                        <p class="card-text">$40.00</p>
-                        <a href="#" class="btn btn-primary">Buy</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Product 5 -->
-            <div class="col-md-4 col-sm-6 mb-4">
-                <div class="card product">
-                    <img src="https://media.takealot.com/covers_images/37a44384791047a6ad8aa8f5cb72cde8/s-pdpxl.file" class="card-img-top img-fluid" alt="Product 5">
-                    <div class="card-body">
-                        <h5 class="card-title">Headphones</h5>
-                        <p class="card-text">$110.00</p>
-                        <a href="#" class="btn btn-primary">Buy</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Product 6 -->
-            <div class="col-md-4 col-sm-6 mb-4">
-                <div class="card product">
-                    <img src="https://image.made-in-china.com/202f0j00qCjbwUWcGvky/Ulefone-Note-16-PRO-6-52-Inch-128GB-Cellphone-Fashion-Smart-Phone-4G-Celulares-Mobile-Phone.webp" class="card-img-top img-fluid" alt="Cellphone">
-                    <div class="card-body">
-                        <h5 class="card-title">Cellphone</h5>
-                        <p class="card-text">$460.00</p>
-                        <a href="#" class="btn btn-primary">Buy</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Product 7 -->
-            <div class="col-md-4 col-sm-6 mb-4">
-                <div class="card product">
-                    <img src="https://newellbrands.imgix.net/d3f8bd75-08e9-3c31-aab2-337d4d9a014f/d3f8bd75-08e9-3c31-aab2-337d4d9a014f.jpg?auto=format,compress&w=400&h=400"  class="card-img-top img-fluid" alt="Coffee Marker">
-                    <div class="card-body">
-                        <h5 class="card-title">Coffee Marker </h5>
-                        <p class="card-text">$270.00</p>
-                        <a href="#" class="btn btn-primary">Buy</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Product 8 -->
-            <div class="col-md-4 col-sm-6 mb-4">
-                <div class="card product">
-                    <img src="https://media.takealot.com/covers_images/93b8d1b2133e4e73b30f9d6a52421638/s-pdpxl.file" class="card-img-top img-fluid" alt="Drone">
-                    <div class="card-body">
-                        <h5 class="card-title">Drone</h5>
-                        <p class="card-text">$80.00</p>
-                        <a href="#" class="btn btn-primary">Buy</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Product 9 -->
-            <div class="col-md-4 col-sm-6 mb-4">
-                <div class="card product">
-                    <img src = https://rukminim1.flixcart.com/image/300/300/gamingconsole/9/h/6/psp-sony-original-imaeqcvbhzuhhgvm.jpeg class="card-img-top img-fluid" alt="Psp generic Game">
-                    <div class="card-body">
-                        <h5 class="card-title">Psp GEneric Game</h5>
-                        <p class="card-text">$190.00</p>
-                        <a href="#" class="btn btn-primary">Buy</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Product 10 -->
+    </nav>  
+</head>
+    <body>
+ 
+    </body>
+    <!-- Short Bio -->
+    <section class="my-element"></section>
+    <br>
 
+    <!-- Contact Details -->
+    <section>
+        <img src="https://www.totaltek.com/wp-content/uploads/2022/01/Computer-Programming-Languages.jpg">
+        <img scr="ITPic.jpg">
+        <img src="" alt="">
+        <h2>Contact Details</h2>
+        <ul>
+            <li>Name: Jayson Ranck</li>
+            <li>Contact Number: 0671799160</li>
+            <li>Email: jayson.ranckjay@gmail.com</li>
+            <li>LinkedIn: <a href="[Your LinkedIn Profile URL]">LinkedIn Profile</a></li>
+        </ul>
+<!-- Other content goes here -->
+
+    </section>
+    <!-- Skills and Competencies -->
+
+            <section>
+         <p>
+            Hi,My name is  Jayson Ranck.
+            I would consider myself a very easy going person, hard worker and always consider putting other peoples needs before me,
+            im not one for much drama and would say i do value kindness,compassion and peace , However 
+            I do not have much years of experience in software engineering but
+            do do find the field very much interesting ,its always a challenge trying to debug and crack a codes are fun but can get alot at times,
+            but thats the entire reason why i simply enjoy programming.
+
+            My passions include baseball and making or creating new things such as wooden art.
+            I do enjoy reading and being apart of natur,I'm motivated by the people around me ,
+            seeing them reaching and achieving their goals and simply seeing how their hard work played off regardless of their,
+            circumstances,seeing them succeed helps me always want better out of life and always help me to continue to strive for more.
+            I would love to be become a really good programmer one day and create,
+            a program that would also help people to make their daily lives much easier
+
+            What enspire me the most is my parents exspecailly my mother and her faith in me  without her i highly doubt i would even make it this far.
+            the one and only thing i would love to do is probably every sons dream and that is to simply buy moms a brand new home
+            other than that i would alway want to keep others happy and them also become grate in whatver it is they would like to do
+        </p>
+        <br>
+        <br>
+                <ul>
+                    <h2>Skills and Competencies</h2>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <!-- Add more skills -->
+                </ul>
+            </section>
+            <!-- Education -->
+            <section>
+                <h2>Education</h2>
+                <p>
+                    Computer Science, HyperionDev<br>
+                    2024
+                </p>
+            </section>
+            <!-- Work Experience -->
+            <section>
+                
+                <h2>Work Experience</h2>
+                <p>
+                    Software Engingneer, HyperionDev<br>
+                    05/02/2024
+                </p>
+            </section>
+    <!-- Search Form (GET) -->
+ 
     <footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <h5>About Us</h5>
-                <p>We offer the best Electronics at the best prices.</p>
-            </div>
-            <div class="col-md-4">
-                <h5>Contact</h5>
-                <hr>
-                <p>Email: info@onlinestore.com</p>
-                <p>Email: jayson.ranckjay@gmail.com</p>
-                <p>Phone: +27 671799160</p>
-            </div>
-            <div class="col-md-4">
-                <h5>Follow Us</h5>
-                <a href="#">Facebook</a><br>
-                <a href="#">Twitter</a><br>
-                <a href="#">Instagram</a>
+                <form action="/contact" method="post">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your email">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="container">
+            <div class="row">
+           
+                <div class="col-md-4">
+                    <h5>Contact</h5>
+                    <hr>
+                    <p>Email: info@onlinestore.com</p>
+                    <p>Email: jayson.ranckjay@gmail.com</p>
+                    <p>Phone: +27 671799160</p>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </footer>
+    <!-- Contact Form (POST) -->
 </body>
 </html>
-</html>
-<!-- img sources -->
-<!-- All the images is taken from google and prouduct is from take alpt website-->
