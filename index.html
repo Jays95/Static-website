@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar {
+            background-color: #1806baf6;
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+        }
+        .navbar-nav .nav-link {
+            color: #fff;
+        }
+        .product img {
+            transition: transform 0.2s, translate 0.2s;
+        }
+        .product img:hover {
+            transform: scale(1.1) translate(10px, 10px);
+        }
+        .footer {
+            background-color: #3d86d9f6;
+            padding: 20px 0;
+            color: #fff;
+        }
+        .footer .form-inline {
+            display: flex;
+            align-items: center;
+        }
+        .footer img {
+            max-height: 50px;
+            margin-right: 20px;
+        }
+        .footer a {
+            color: #06ceb7;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Jays Online Shopping Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  
+    <div class="container">
+        <div class="row">
+            <!-- Product 1 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card product">
+                    <img src="https://cinephototools.co.za/wp-content/uploads/2021/07/nikonZFCw16-50mm.jpeg"  class="card-img-top img-fluid" alt="Camera">
+                    <div class="card-body">
+                        <h5 class="card-title">i20 Camera</h5>
+                        <p class="card-text">$110.00</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card product">
+                    <img src="https://media.takealot.com/covers_images/a47370ef70ec4ff2a517faea405097d1/s-pdpxl.file" class="card-img-top img-fluid" alt="Classic Watch">
+                    <div class="card-body">
+                        <h5 class="card-title">Classic Watch</h5>
+                        <p class="card-text">$50.00</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card product">
+                    <img src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top img-fluid" alt="Laptop">
+                    <div class="card-body">
+                        <h5 class="card-title">Laptop</h5>
+                        <p class="card-text">$305.00</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card product">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKjXReOO4Kl6gYvY8F91RQ-l0wtbgu-V3y1g&s"  class="card-img-top img-fluid" alt="Radio">
+                    <div class="card-body">
+                        <h5 class="card-title">Radio</h5>
+                        <p class="card-text">$40.00</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 5 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card product">
+                    <img src="https://media.takealot.com/covers_images/37a44384791047a6ad8aa8f5cb72cde8/s-pdpxl.file" class="card-img-top img-fluid" alt="Product 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Headphones</h5>
+                        <p class="card-text">$110.00</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 6 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card product">
+                    <img src="https://image.made-in-china.com/202f0j00qCjbwUWcGvky/Ulefone-Note-16-PRO-6-52-Inch-128GB-Cellphone-Fashion-Smart-Phone-4G-Celulares-Mobile-Phone.webp" class="card-img-top img-fluid" alt="Cellphone">
+                    <div class="card-body">
+                        <h5 class="card-title">Cellphone</h5>
+                        <p class="card-text">$460.00</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 7 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card product">
+                    <img src="https://newellbrands.imgix.net/d3f8bd75-08e9-3c31-aab2-337d4d9a014f/d3f8bd75-08e9-3c31-aab2-337d4d9a014f.jpg?auto=format,compress&w=400&h=400"  class="card-img-top img-fluid" alt="Coffee Marker">
+                    <div class="card-body">
+                        <h5 class="card-title">Coffee Marker </h5>
+                        <p class="card-text">$270.00</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 8 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card product">
+                    <img src="https://media.takealot.com/covers_images/93b8d1b2133e4e73b30f9d6a52421638/s-pdpxl.file" class="card-img-top img-fluid" alt="Drone">
+                    <div class="card-body">
+                        <h5 class="card-title">Drone</h5>
+                        <p class="card-text">$80.00</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 9 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card product">
+                    <img src = https://rukminim1.flixcart.com/image/300/300/gamingconsole/9/h/6/psp-sony-original-imaeqcvbhzuhhgvm.jpeg class="card-img-top img-fluid" alt="Psp generic Game">
+                    <div class="card-body">
+                        <h5 class="card-title">Psp GEneric Game</h5>
+                        <p class="card-text">$190.00</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 10 -->
+
+    <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>About Us</h5>
+                <p>We offer the best Electronics at the best prices.</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Contact</h5>
+                <hr>
+                <p>Email: info@onlinestore.com</p>
+                <p>Email: jayson.ranckjay@gmail.com</p>
+                <p>Phone: +27 671799160</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Follow Us</h5>
+                <a href="#">Facebook</a><br>
+                <a href="#">Twitter</a><br>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+</html>
+<!-- img sources -->
+<!-- All the images is taken from google and prouduct is from take alpt website-->
